@@ -1,46 +1,16 @@
 {
-  "labs": [
+  "projects": [
     {
-      "name": "Lab 1",
-      "description": "Introduction Lab",
-      "path": "../../labs/1/lab1.html",
-      "image": "fa-solid fa-folder"
+      "name": "Beyond The Zodiac",
+      "description": "Unique Zoodiac Experience",
+      "path": "/teamproject/homepage/home.html1",
+      "image": "fa-solid fa-meteor"
     },
     {
-      "name": "Lab 2",
-      "description": "HTML and CSS Lab",
-      "path": "../../labs/3/lab2.html",
-      "image": "fa-solid fa-folder"
-    },
-    {
-      "name": "Lab 4",
-      "description": "XML Feeds Lab",
-      "path": "../../labs/4/index.html",
-      "image": "fa-solid fa-folder"
-    },
-    {
-      "name": "Lab 5",
-      "description": "Forms and JavaScript",
-      "path": "../../labs/5/lab5.html",
-      "image": "fa-solid fa-folder"
-    },
-    {
-      "name": "Lab 6",
-      "description": "jQuery Lab",
-      "path": "../../labs/6/lab6.html",
-      "image": "fa-solid fa-folder"
-    },
-    {
-      "name": "Lab 7",
-      "description": "Group Project",
-      "path": "../../labs/7/lab7.html",
-      "image": "fa-solid fa-folder"
-    },
-    {
-      "name": "Lab 8",
-      "description": "JavaScript, JSON and AJAX",
-      "path": "../../labs/8/lab8.html",
-      "image": "fa-solid fa-folder"
+      "name": "Your Afterschool Inventory",
+      "description": "Custom High Level Inventory System",
+      "path": "/ya.html",
+      "image": "fa-solid fa-school"
     }
   ]
 } 

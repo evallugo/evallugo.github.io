@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   //load labs from json file
   $.ajax({
-    url: '../../labs/8/projects.json',
+    url: '../../labs/8/labs.json',
     dataType: 'json',
     success: function(data) {
       const buttonsContainer = $('.buttons');
