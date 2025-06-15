@@ -37,20 +37,18 @@ $(document).ready(function() {
     error: function(xhr, status, error) {
       console.error('Error loading projects:', error);
       const fallbackButtons = `
-        <a href="../../labs/1/lab1.html" class="button">Lab 1 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/3/lab2.html" class="button">Lab 2 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/4/index.html" class="button">Lab 4 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/5/lab5.html" class="button">Lab 5 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/6/lab6.html" class="button">Lab 6 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/7/lab7.html" class="button">Lab 7 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/8/lab8.html" class="button">Lab 8 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/9/index.php" class="button">Lab 9 <i class="fas fa-flask"></i></a>
-        <a href="../../labs/10/index.php" class="button">Lab 10 <i class="fas fa-flask"></i></a>
+        <a href="../../labs/1/lab1.html" class="button">Lab 1 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/3/lab2.html" class="button">Lab 2 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/4/index.html" class="button">Lab 4 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/5/lab5.html" class="button">Lab 5 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/6/lab6.html" class="button">Lab 6 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/7/lab7.html" class="button">Lab 7 <i class="fa-solid fa-folder"></i></a>
+        <a href="../../labs/8/lab8.html" class="button">Lab 8 <i class="fa-solid fa-folder"></i></a>
       `;
       
       $('.buttons').html(fallbackButtons);
       
-      // Animate fallback buttons
+      //animate fallback buttons
       $('.buttons a').each(function(index) {
         setTimeout(() => {
           $(this).addClass('visible');
