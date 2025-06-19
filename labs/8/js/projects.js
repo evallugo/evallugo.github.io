@@ -1,9 +1,9 @@
 $(document).ready(function() {
   //title appears immediately without animation
 
-  //load labs from json file
+  //load projects from json file
   $.ajax({
-    url: '../../labs/8/projects.json',
+    url: '../projects.json',
     dataType: 'json',
     success: function(data) {
       const buttonsContainer = $('.buttons');

@@ -9,7 +9,7 @@
     {
       "name": "Your Afterschool Inventory",
       "description": "Custom High Level Inventory System",
-      "path": "/ya.html",
+      "path": "../../ya.html",
       "image": "fa-solid fa-school"
     }
   ]
